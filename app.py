@@ -635,7 +635,6 @@ def mostrar_sidebar():
 
     st.sidebar.markdown("### Leyenda")
     st.sidebar.write("★ Festivo")
-    st.sidebar.write("· Fin de semana")
     for estado in ESTADOS:
         color = COLORES_ESTADOS[estado]
         icono = ICONOS_ESTADOS[estado]
